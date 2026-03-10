@@ -26,7 +26,7 @@ List<Product> products = [
     price: 150000,
     rating: 4.5,
     description: "Wireless mouse ergonomis dengan koneksi 2.4GHz yang stabil dan baterai tahan lama. Cocok untuk penggunaan kantor maupun gaming ringan.",
-    isFavorite: true,
+    isFavorite: false,
   ),
   Product(
     name: "Mechanical Keyboard",
@@ -44,7 +44,7 @@ List<Product> products = [
     price: 350000,
     rating: 4.6,
     description: "Headset gaming dengan suara surround yang jernih serta microphone noise cancelling untuk komunikasi yang lebih jelas saat bermain game.",
-    isFavorite: true,
+    isFavorite: false,
   ),
   Product(
     name: "Smart Watch",
@@ -71,7 +71,7 @@ List<Product> products = [
     price: 200000,
     rating: 4.5,
     description: "Tas ransel laptop dengan bahan tahan air dan kompartemen khusus untuk laptop hingga ukuran 15 inci.",
-    isFavorite: true,
+    isFavorite: false,
   ),
   Product(
     name: "USB-C Hub",
@@ -89,7 +89,7 @@ List<Product> products = [
     price: 1200000,
     rating: 4.8,
     description: "SSD portabel berkapasitas 1TB dengan kecepatan transfer tinggi dan desain compact yang mudah dibawa.",
-    isFavorite: true,
+    isFavorite: false,
   ),
   Product(
     name: "LED Desk Lamp",

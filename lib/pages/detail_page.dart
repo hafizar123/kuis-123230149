@@ -18,6 +18,19 @@ class _DetailPageState extends State<DetailPage> {
         title: Text(widget.product.name), 
         backgroundColor: Colors.blue[900], 
         foregroundColor: Colors.white,
+        actions: [
+          IconButton(
+            icon: Icon(
+              widget.product.isFavorite ? Icons.favorite : Icons.favorite_border,
+              color: widget.product.isFavorite ? Colors.red : Colors.white,
+            ),
+            onPressed: () {
+              setState(() {
+                widget.product.isFavorite = !widget.product.isFavorite;
+              });
+            },
+          )
+        ],
       ),
       body: SingleChildScrollView(
         child: Column(
